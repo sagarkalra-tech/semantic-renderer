@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 2026-04-09
+
+### Changed
+- CI matrix: dropped Node 18 (EOL), now tests on Node 20 + 22
+- Engine requirement: `>=20`
+
 ## [1.1.0] - 2026-04-09
 
 ### Added

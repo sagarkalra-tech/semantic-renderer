@@ -1,6 +1,6 @@
 {
   "name": "semantic-renderer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Intelligent LLM response renderer that detects semantic intent (comparisons, steps, pros/cons, code explanations, tables, emails, verdicts) and renders with purpose-built visual components instead of generic markdown.",
   "author": "Sagar Kalra <autopriseai@gmail.com>",
   "license": "MIT",
