@@ -1,0 +1,85 @@
+{
+  "name": "semantic-renderer",
+  "version": "1.1.0",
+  "description": "Intelligent LLM response renderer that detects semantic intent (comparisons, steps, pros/cons, code explanations, tables, emails, verdicts) and renders with purpose-built visual components instead of generic markdown.",
+  "author": "Sagar Kalra <autopriseai@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagarkalra-tech/semantic-renderer"
+  },
+  "keywords": [
+    "llm",
+    "ai",
+    "markdown",
+    "renderer",
+    "semantic",
+    "react",
+    "react-native",
+    "chatbot",
+    "comparison",
+    "steps",
+    "pros-cons",
+    "streaming",
+    "openai",
+    "claude",
+    "gemini"
+  ],
+  "type": "module",
+  "main": "./dist/core/index.js",
+  "module": "./dist/core/index.js",
+  "types": "./dist/core/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/core/index.d.ts",
+      "import": "./dist/core/index.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js"
+    },
+    "./react/styles.css": "./src/react/styles.css"
+  },
+  "files": [
+    "dist",
+    "src/react/styles.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "framer-motion": ">=10.0.0",
+    "lucide-react": ">=0.300.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-markdown": ">=9.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "react-markdown": {
+      "optional": true
+    },
+    "framer-motion": {
+      "optional": true
+    },
+    "lucide-react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "react-dom": "^19.2.5",
+    "react-markdown": "^10.1.0",
+    "typescript": "^5.9.0"
+  }
+}
