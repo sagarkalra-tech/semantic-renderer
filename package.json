@@ -5,7 +5,7 @@
   "author": "Sagar Kalra <autopriseai@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "sideEffects": [
     "*.css"
