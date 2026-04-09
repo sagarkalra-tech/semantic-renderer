@@ -1,5 +1,8 @@
 # semantic-renderer
 
+[![CI](https://github.com/sagarkalra-tech/semantic-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/sagarkalra-tech/semantic-renderer/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/semantic-renderer)](https://www.npmjs.com/package/semantic-renderer)
+
 Intelligent LLM response renderer that detects the **semantic intent** of markdown responses and renders them with purpose-built visual components — not just "better markdown", but context-aware layouts.
 
 A comparison response renders as side-by-side cards. A step-by-step guide renders as an interactive stepper. Pros and cons render as a green/red two-column layout. All automatically detected — zero prompt engineering required.
