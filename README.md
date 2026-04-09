@@ -186,6 +186,11 @@ Ask any LLM these prompts to see each renderer in action:
 - **Email**: "Draft an email to the hiring manager following up on my application"
 - **Verdict**: "What's your verdict on using TypeScript for a new project?"
 
+## Demo
+
+<!-- TODO: Add demo.gif showing semantic renderers in action -->
+*Coming soon — animated demo of all 7 block types.*
+
 ## Roadmap
 
 - React Native renderers
